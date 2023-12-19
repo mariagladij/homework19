@@ -66,6 +66,5 @@ public class ContactUsTest {
         // Перевірка, що з'явилося повідомлення про успішне відправлення форми
         String successMessage = String.valueOf(contactUsPage.isSuccessMessageDisplayed());
         Assert.assertNotNull(successMessage);
-
     }
 }
