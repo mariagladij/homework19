@@ -44,5 +44,4 @@ public class ContactUsPage {
         WebElement successMessageElement = driver.findElement(successMessage);
         return successMessageElement.isDisplayed();
     }
-
 }
